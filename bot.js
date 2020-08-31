@@ -24,6 +24,7 @@ client.on('message', message => {
             if(!member) return message.reply("The mentioned user is not in this server!");
 
             message.channel.send(user.displayAvatarURL());
+            break;
     }
 })
 
